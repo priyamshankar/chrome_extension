@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+  
+    "name": "try this",
+    "description": "try this launcher to waste your time",
+    "version": "1.0.0",
+    "optional_permissions": [
+      "unlimitedStorage"
+    ],
+    
+      "action": {
+
+        "default_popup": "main.html"
+       }
+  }
