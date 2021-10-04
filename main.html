@@ -31,7 +31,14 @@
         </div>
         <hr>
         <div class="options">
-            <h1>Pomodoro</h1>
+            <h1 class="optmin">Focus Mode</h1>
+            <div class="optdiv">
+
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
             <div class="optmin">
                 <div>
 
@@ -49,73 +56,76 @@
                 </div>
                 <div>
 
-                    <p>Turn up the heat</p>
+                    <p>Break Time</p>   
                     <label class="switch">
                         <input type="checkbox">
                         <span class="slider"></span>
                     </label>
                 </div>
-                <hr>
+            </div>
+            <!-- <hr> -->
+        </div>
+        <hr>
+        <div class="options">
+            <h1 class="optmin">Pomodoro</h1>
+            <div class="optdiv">
+
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="optmin">
+                
+                <div>
+
+                    <p>Take a Break</p>   
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
             </div>
         </div>
+        <hr>
         <div class="options">
+            <h1 class="optmin">Motivational Quotes</h1>
+            <div class="optdiv">
 
-            <h1> Spotify here
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="optmin">
+                
+                <div>
+
+                    <p>Send Quotes Every Hour</p>   
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+
+            <h1> Focus Music
             </h1>
         </div>
-        <!-- <button id="togglePlay">Toggle Play</button>
-        <script src="https://sdk.scdn.co/spotify-player.js"></script>
-
-        <script>
-            window.onSpotifyWebPlaybackSDKReady = () => {
-                const token = 'BQC3ujC6WkH8TiTz7Yo-9vOAy5OWmWI6xIoOG7aJSzBxahnuwW8nAdk-NPqL4phyB7IrsPdyy27sKA2JGfc38Y17UaH1ONdcAdRybrlJ6fzDbAm7aUr4rwF6cBWY14OFvU86lD5VdL5jKq0z_vn7zjPVPjm3v9lxwwkk';
-                const player = new Spotify.Player({
-                    name: 'Web Playback SDK Quick Start Player',
-                    getOAuthToken: cb => { cb(token); },
-                    volume: 0.5
-                });
-
-                // Ready
-                player.addListener('ready', ({ device_id }) => {
-                    console.log('Ready with Device ID', device_id);
-                });
-
-                // Not Ready
-                player.addListener('not_ready', ({ device_id }) => {
-                    console.log('Device ID has gone offline', device_id);
-                });
-
-                player.addListener('initialization_error', ({ message }) => {
-                    console.error(message);
-                });
-
-                player.addListener('authentication_error', ({ message }) => {
-                    console.error(message);
-                });
-
-                player.addListener('account_error', ({ message }) => {
-                    console.error(message);
-                });
-
-                document.getElementById('togglePlay').onclick = function () {
-                    player.togglePlay();
-                };
-
-                player.connect();
-            }
-        </script> -->
-        <!-- <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWX83CujKHHOn" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
-        <!-- <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWX83CujKHHOn" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
-        <iframe src="https://open.spotify.com/embed/playlist/75NnLOSbadDI3dfKHLKplO" width="100%" height="380"
+       
+        <!-- <iframe src="https://open.spotify.com/embed/playlist/75NnLOSbadDI3dfKHLKplO" width="100%" height="380"
             frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
         <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ" width="100%" height="380"
             frameBorder="0" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
     <script src="main.js">
     
-<!-- <script src="nilesh.js"></script> -->
+// <!-- <script src="nilesh.js"></script> -->
 
     </script>
 </body>

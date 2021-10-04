@@ -108,6 +108,20 @@ background-image: linear-gradient(#f4daff,#e2fbed );
   .optmin div{
       margin: 8%;
   }
+  .optmin{
+    clear:right;
+    display: inline;
+    /* margin: 8%; */
+  }
+
+  .optdiv{
+    margin-right: 8%;
+    /* margin-bottom: 8%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    clear: both;
+    float: right;
+  }
 
 
 
