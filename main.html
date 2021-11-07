@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Try this extension</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="timer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=PT+Serif:ital@1&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
             <div class="logo">Ignite</div>
             <div id="eye"></div>
         </div>
-
+        
         <div id="countdown">
             <div id="countdown-number"></div>
             <svg>
@@ -33,7 +35,7 @@
         <div class="options">
             <h1 class="optmin">Focus Mode</h1>
             <div class="optdiv">
-
+                
                 <label class="switch">
                     <input type="checkbox">
                     <span class="slider"></span>
@@ -41,21 +43,21 @@
             </div>
             <div class="optmin">
                 <div>
-
+                    
                     <p>Turn the timer on</p><label class="switch">
                         <input type="checkbox">
                         <span class="slider"></span>
                     </label>
                 </div>
                 <div>
-
+                    
                     <p>Turn the alarm on</p><label class="switch">
                         <input type="checkbox">
                         <span class="slider"></span>
                     </label>
                 </div>
                 <div>
-
+                    
                     <p>Break Time</p>   
                     <label class="switch">
                         <input type="checkbox">
@@ -69,50 +71,50 @@
         <div class="options">
             <h1 class="optmin">Eye Protection</h1>
             <div class="optdiv">
-
+                
                 <label class="switch">
                     <input type="checkbox">
                     <span class="slider"></span>
                 </label>
             </div>
             <hr>
-        <div class="options">
-            <h1 class="optmin">Pomodoro</h1>
-            <div class="optdiv">
-
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div>
-            <div class="optmin">
-                
-                <div>
-
-                    <p>Take a Break</p>   
+            <div class="options">
+                <h1 class="optmin">Pomodoro</h1>
+                <div class="optdiv">
+                    
                     <label class="switch">
                         <input type="checkbox">
                         <span class="slider"></span>
                     </label>
                 </div>
+                <div class="optmin">
+                    
+                    <div>
+                        
+                        <p>Take a Break</p>   
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
             </div>
-        </div>
-        <hr>
-        <div class="options">
-            <h1 class="optmin">Motivational Quotes</h1>
-            <div class="optdiv">
-
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div>
-            <div class="optmin">
-                
-                <div>
-
-                    <p>Send Quotes Every Hour</p>   
+            <hr>
+            <div class="options">
+                <h1 class="optmin">Motivational Quotes</h1>
+                <div class="optdiv">
+                    
                     <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="optmin">
+                
+                    <div>
+                        
+                        <p>Send Quotes Every Hour</p>   
+                        <label class="switch">
                         <input type="checkbox">
                         <span class="slider"></span>
                     </label>
@@ -120,24 +122,26 @@
             </div>
             <hr>
         </div>
-
-
-            <h1> Focus Music
-            </h1>
-        </div>
-       
-        <!-- <iframe src="https://open.spotify.com/embed/playlist/75NnLOSbadDI3dfKHLKplO" width="100%" height="380"
-            frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
-        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ" width="100%" height="380"
-            frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        
+        <div class="timer"></div>
+        
+        <h1> Focus Music
+        </h1>
     </div>
-    <script src="main.js">
     
-// <!-- <script src="nilesh.js"></script> -->
+    <!-- <iframe src="https://open.spotify.com/embed/playlist/75NnLOSbadDI3dfKHLKplO" width="100%" height="380"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ" width="100%" height="380"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <script src="timer.js"></script>
+    <script src="main.js">
+        
+        // <!-- <script src="nilesh.js"></script> -->
 
-    </script>
+</script>
 </body>
 
 </html>
