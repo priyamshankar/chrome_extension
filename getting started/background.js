@@ -7,7 +7,8 @@
 // });
 let color = '#3aa757';
 let brick = 0;
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onStartup.addListener(() => {
+// chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.set({ color });
   chrome.storage.sync.set({ brick });
 
