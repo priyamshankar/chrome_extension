@@ -1,0 +1,9 @@
+body {
+    /* box-sizing: border-box; */
+    border: 2px solid #f4daff;
+    /* background-image: linear-gradient(#e2fbed, #f4daff); */
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 400px;
+  }

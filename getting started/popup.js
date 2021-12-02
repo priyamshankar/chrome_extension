@@ -12,10 +12,10 @@ changeColor.addEventListener("click", async () => {
   setInterval(eyetimer, 1000);
   chrome.scripting.executeScript({
     target: { tabId: tab.id, allFrames: true },
-    // function: setPageBackgroundColor,
+    function: setPageBackgroundColor,
     // function: tick
     // function: tick,                             // this script is perfectly working in the background
-  function: eye,
+  // function: eye,
   });
   // alert("heyy there");
 });
