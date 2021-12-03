@@ -1,4 +1,4 @@
-document.write("focus mode is on under the influence of ignite chrome extension")
+// document.write("focus mode is on under the influence of ignite chrome extension")
 
 // // const check = document.getElementById("check");
 // chrome.storage.sync.get("check", ({ check }) => {
