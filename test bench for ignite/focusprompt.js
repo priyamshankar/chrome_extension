@@ -30,8 +30,19 @@
 
 
 
+
 // // function setPageBackgroundColor() {
 // //     chrome.storage.sync.get("color", ({ color }) => {
 // //         document.body.style.backgroundColor = color;
 // //     });
 // // }
+// function trigger_focus(){
+//     document.write("focus mode is on under the influence of ignite chrome extension");
+//     console.log("focusmode message reached");   
+// }
+// chrome.runtime.onMessage.addListener(
+//     function (request, sender, sendResponse) {
+//         if (request.greeting == "focusmode_on") {
+//             trigger_focus();
+//         }
+//     });

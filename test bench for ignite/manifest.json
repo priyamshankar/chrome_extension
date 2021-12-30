@@ -6,9 +6,8 @@
   "permissions": [
     "storage",
     "alarms",
-    "notifications","tabs","scripting","activeTab","https://*.facebook.com/*",
-    "https://*.instagram.com/*","alarms","notifications"
-  ],
+    "notifications","tabs","activeTab","https://*.facebook.com/*",
+    "https://*.instagram.com/*","alarms","notifications","scripting"],
   "offline_enabled": true,
   "background": {
     "persistent": true,
